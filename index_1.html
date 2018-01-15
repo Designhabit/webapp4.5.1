@@ -8,9 +8,12 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Playfair+Display:700,700i,900" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+	<link rel="stylesheet/less" href="style.less" type="text/less" />
+	<!-- <link rel="stylesheet" href="css/dark.css" type="text/css" /> -->
+	<link rel="stylesheet/less" href="less/dark.less" type="text/less" />
 
 	<!-- Home Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="demos/interior-design/interior-design.css" type="text/css" />
@@ -22,16 +25,25 @@
 	<!-- Reader's Blog Demo Specific Fonts -->
 	<link rel="stylesheet" href="demos/interior-design/css/fonts.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<!-- <link rel="stylesheet" href="css/responsive.css" type="text/css" /> -->
+	<link rel="stylesheet/less" href="less/responsive.less" type="text/less" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="css/colors.php?color=1c85e8" type="text/css" />
+	<!-- <link rel="stylesheet" href="css/colors.php?color=1c85e8" type="text/css" /> -->
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
 
 	<!-- Document Title
 	============================================= -->
-	<title>Interior Design Studio | Canvas</title>
+	<title>Canada Health Solutions</title>
+	<!--Start of Zendesk Chat Script-->
+		<script type="text/javascript">
+			window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+			$.src="https://v2.zopim.com/?4t99RnGvpNtmIBXI9h9bjlBVc4AyOpNo";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+		</script>
+	<!--End of Zendesk Chat Script-->
 
 </head>
 
@@ -141,22 +153,22 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="clearfix" style="height: 500px; background: url('demos/interior-design/images/hero-image.jpg') center center no-repeat; background-size: cover;">
+		<section id="slider" class="clearfix" style="height: 500px; background: url('images/custom_assets/banners/banner_home_01.jpg') center center no-repeat; background-size: cover;">
 			<div class="vertical-middle">
 				<div class="container clearfix">
 
 					<div class="clearfix center divcenter" style="max-width: 700px;">
 						<div class="emphasis-title">
-							<h1 class="font-secondary" style="color: #FFF; font-size: 76px; font-weight: 900; text-shadow: 0 7px 10px rgba(0,0,0,0.07), 0 4px 4px rgba(0,0,0,0.2);">Design Studio.</h1>
-							<p style="font-weight: 300; opacity: .7; color: #FFF; text-shadow: 0 -4px 20px rgba(0, 0, 0, .25);">Sell your home to us and skip the hassle of<br>repairs, showings and months of uncertainty</p>
+							<h1 class="font-secondary" style="color: #555; font-size: 46px; font-weight: 900; text-shadow: 0 7px 5px rgba(0,0,0,0.07), 0 4px 4px rgba(0,0,0,0.2); white-space: nowrap;">Simple. Safe. Affordable.</h1>
+							<p style="font-weight: 300; max-width:600px; color: #333;">“I’m so thankful — I can order prescriptions for my wife from Canada as there would be no other alternative for us except to go without…” — Stefan, San Bernardino California</p>
 						</div>
 						<div class="subscribe-widget" data-loader="button">
 							<div class="widget-subscribe-form-result"></div>
 							<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin" data-animate="fadeInUp">
 								<div class="input-group divcenter">
-									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control input-lg not-dark required email" placeholder="Enter your Email Address.." style="border: 0; box-shadow: none; overflow: hidden;">
+									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control input-lg not-dark required email" placeholder="Find your medication" style="border: 0; box-shadow: none; overflow: hidden;">
 									<span class="input-group-btn">
-										<button href="#" class="button t400" type="submit" style="border-radius: 3px;">Subscribe</button>
+										<button href="#" class="button t400" type="submit" style="border-radius: 3px;">Search</button>
 									</span>
 								</div>
 							</form>
