@@ -1,0 +1,74 @@
+/*-----------------------------------------------------------------------------------
+	custom.less
+-----------------------------------------------------------------------------------*/
+html {
+	// background-color: @html-background-color;
+	background-color: #ff000;
+}
+body {
+	line-height: @line-height-base;
+	color: @body-color;
+	font-size: @font-size-base;
+	font-family: @body-font;
+	background-color: @html-background-color;
+}
+
+a {
+	text-decoration: none !important;
+	color: @theme-color;
+
+	&:hover {
+		color: #222;
+	}
+}
+/* Chat Button  */
+.kchatButton {
+	position:fixed; z-index:16000000;
+	border-radius:50%;
+	right:15px;
+	bottom:15px;
+	background-color: rgba(253,253,253,0.95)!important;
+	// background-color: @theme-color!important;
+	display:block;
+	color:#fff;
+	text-align:center;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	padding:8px;
+	width:60px!important;
+	height:60px !important;
+}
+.kchatButton img {
+	width: 46px;
+}
+#wrapper {
+	position: relative;
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFF;
+	box-shadow: 0 0 6px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
+body.device-lg #wrapper {
+	max-width: 1600px;
+}
+
+
+/* ----- Hero Widget ----- */
+#chs-med-finder {
+	display: block;
+	padding: 8px;
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-radius: 3px;
+	box-shadow: 0 0 30px 4px rgba(0,0,0,0.05);
+	transition: box-shadow .4s linear;
+}
+
+#chs-med-finder:hover { box-shadow: 0 0 42px 4px rgba(0,0,0,.3) !important; }
+
+.input-lg { height: 50px; }
