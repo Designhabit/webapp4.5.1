@@ -38,7 +38,7 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #444;
+	background-color: darken(@theme-color, @darken-percentage);
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -132,7 +132,9 @@ body:not(.device-touch) .button {
 
 .button.button-desc div { display: inline-block; }
 
-.button.button-rounded { .border-radius(3px); }
+.button.button-rounded {
+	.border-radius(40px); // aBasu customized
+}
 
 
 /* Buttons - Border

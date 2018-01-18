@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------
-	Responsive CSS
+Responsive CSS
 -----------------------------------------------------------------*/
 
 
@@ -1626,7 +1626,9 @@
 
 	.container,
 	#header.full-header .container,
-	.container-fullwidth { width: 310px !important; }
+	.container-fullwidth {
+		width: 100% !important;
+		} /* aBasu Customized from 310px to 100% */
 
 	.container.vertical-middle { width: 100% !important; }
 
@@ -1789,7 +1791,7 @@
 
 
 /* ----------------------------------------------------------------
-	Retina CSS
+Retina CSS
 -----------------------------------------------------------------*/
 
 
@@ -1863,4 +1865,3 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo { display: inline-block; }
 }
-

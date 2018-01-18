@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="556 4913 86.408 86.408">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #edeef1;
+      }
+
+      .cls-2 {
+        fill: #a8d2f0;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-7, .cls-8 {
+        stroke: #2a5183;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #0178d7;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #54a0dc;
+      }
+
+      .cls-8 {
+        stroke-linecap: round;
+        stroke-width: 2.001px;
+      }
+    </style>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(561.225 4916.854)">
+    <ellipse id="Ellipse_11" data-name="Ellipse 11" class="cls-1" cx="30.6" cy="30.5" rx="30.6" ry="30.5" transform="translate(-5.225 39.421) rotate(-45)"/>
+    <path id="Path_38" data-name="Path 38" class="cls-2" d="M37.4,17.9V15.3a5.164,5.164,0,0,0-5.2-5.2H6.2A5.164,5.164,0,0,0,1,15.3v2.6Z"/>
+    <path id="Path_39" data-name="Path 39" class="cls-3" d="M1,63.4v5.2a5.762,5.762,0,0,0,5.2,5.2h26a5.762,5.762,0,0,0,5.2-5.2V63.4H1Z"/>
+    <rect id="Rectangle_188" data-name="Rectangle 188" class="cls-4" width="36.4" height="45.5" transform="translate(1 17.9)"/>
+    <path id="Path_40" data-name="Path 40" class="cls-5" d="M37.4,34.8V63.4H1V17.9H37.4v7.8"/>
+    <line id="Line_28" data-name="Line 28" class="cls-6" x2="6.5" transform="translate(16.6 68.6)"/>
+    <path id="Path_41" data-name="Path 41" class="cls-7" d="M59.5,4.9V25.8a3.8,3.8,0,0,1-3.8,3.8h-21L26.8,39.7a1.283,1.283,0,0,1-2.3-.8V29.7H21.9A3.9,3.9,0,0,1,18,25.8V4.9A3.842,3.842,0,0,1,21.9,1H55.7A3.821,3.821,0,0,1,59.5,4.9Z"/>
+    <line id="Line_29" data-name="Line 29" class="cls-8" x2="2.6" transform="translate(32.2 15.3)"/>
+    <line id="Line_30" data-name="Line 30" class="cls-8" x2="2.6" transform="translate(38.4 15.3)"/>
+    <line id="Line_31" data-name="Line 31" class="cls-8" x2="2.6" transform="translate(44.6 15.3)"/>
+  </g>
+</svg>

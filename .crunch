@@ -1,0 +1,64 @@
+{
+	"files": {
+		"style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "style.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"less/blog.less",
+				"less/content.less",
+				"less/custom-responsive.less",
+				"less/custom.less",
+				"less/events.less",
+				"less/extras.less",
+				"less/footer.less",
+				"less/header.less",
+				"less/helpers.less",
+				"less/layouts.less",
+				"less/mixins.less",
+				"less/pagetitle.less",
+				"less/portfolio.less",
+				"less/shop.less",
+				"less/shortcodes.less",
+				"less/shortcodes/alerts.less",
+				"less/shortcodes/buttons.less",
+				"less/shortcodes/carousel.less",
+				"less/shortcodes/clients.less",
+				"less/shortcodes/countdown.less",
+				"less/shortcodes/counter-skills.less",
+				"less/shortcodes/dividers.less",
+				"less/shortcodes/faqs.less",
+				"less/shortcodes/feature-box.less",
+				"less/shortcodes/headings.less",
+				"less/shortcodes/misc.less",
+				"less/shortcodes/overlay.less",
+				"less/shortcodes/pricing.less",
+				"less/shortcodes/process-steps.less",
+				"less/shortcodes/promo.less",
+				"less/shortcodes/social-icons.less",
+				"less/shortcodes/styled-icons.less",
+				"less/shortcodes/tabs.less",
+				"less/shortcodes/team.less",
+				"less/shortcodes/testimonials.less",
+				"less/shortcodes/toggles-accordions.less",
+				"less/shortcodes/youtubebg.less",
+				"less/sliders.less",
+				"less/topbar.less",
+				"less/typography.less",
+				"less/variables.less",
+				"less/widgets.less"
+			]
+		}
+	}
+}
